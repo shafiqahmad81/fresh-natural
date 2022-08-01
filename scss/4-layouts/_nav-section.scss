@@ -1,0 +1,54 @@
+.nav-section {
+  display: flex;
+  align-items: center;
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 15px;
+
+  .logo {
+    margin: 0 auto;
+
+    // h2 {
+    //   font-family: 'Waiting for the Sunrise', cursive;
+    //   font-style: normal;
+    //   font-weight: 300;
+    //   font-size: 25px;
+    //   line-height: 41px;
+
+    //   color: #9A9A9A;
+    // }
+
+
+    // h1 {
+
+    //   background: -webkit-linear-gradient(-86deg, #EEF85B 5%, #7AEC8D 53%, #09E5C3 91%);
+    //   -webkit-background-clip: text;
+    //   -webkit-text-stroke: 4px transparent;
+    //   -webkit-text-fill-color: white;
+
+
+    // }
+  }
+
+  .menu {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+      li {
+        display: inline-block;
+
+        a {
+          text-decoration: none;
+          color: $body-text;
+          font-size: 18px;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,124 @@
+.footer-area {
+
+  .footer-top {
+    background-image: url(../images/footer-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 60px 0;
+
+
+    .container {
+      display: flex;
+
+      .contact {
+        margin: 0 auto;
+
+        .redo {
+          text-decoration: underline;
+        }
+      }
+
+      .footer-item {
+        h2 {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 38px;
+          color: #FFFFFF;
+          margin-bottom: 25px;
+        }
+
+
+        a {
+          display: block;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 35px;
+          color: #dfd5d5;
+          text-decoration: none;
+
+          span {
+            color: #a1bba3
+          }
+
+          .zmdi {
+            margin-right: 10px;
+          }
+        }
+
+        .phone {
+          color: #FFFFFF;
+        }
+      }
+
+      .feed {
+        .image-group {
+          width: 343px;
+
+          a {
+            display: inline-block;
+            margin: 0 20px 20px 0;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          a:nth-child(3) {
+            margin-right: 0;
+          }
+
+          a:nth-child(6) {
+            margin-right: 0;
+          }
+        }
+
+      }
+    }
+
+  }
+
+
+
+
+
+  .footer-buttom {
+    background-color: #433840;
+    padding: 20px 0;
+    margin-top: -1px;
+
+    .container {
+      display: flex;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 35px;
+        color: #FFFFFF;
+      }
+
+      .social {
+        margin-left: auto;
+
+        a {
+          color: #DFEEB6;
+
+
+          .zmdi {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 35px;
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+  }
+
+}

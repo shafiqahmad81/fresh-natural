@@ -1,0 +1,72 @@
+.shop-section {
+  width: 100%;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    text-align: center;
+
+    figure img {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    figure:hover img {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+
+    figure {
+      margin: 18px;
+      position: relative;
+
+
+      figcaption {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #433840;
+        margin-top: 40px;
+
+        span {
+          display: block;
+          font-family: 'Waiting for the Sunrise';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 30px;
+          line-height: 50px;
+          color: #FEA3AC;
+        }
+
+      }
+
+      .card {
+        position: absolute;
+        background-color: #DFEEB6;
+        top: 30%;
+        left: 20%;
+
+        p {
+          margin: 0;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 19px;
+          letter-spacing: 3px;
+          color: #FFFFFF;
+          padding: 20px 25px;
+        }
+      }
+
+
+
+    }
+
+
+
+  }
+}
