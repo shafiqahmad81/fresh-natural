@@ -61,6 +61,10 @@
     width: 100% !important;
   }
 
+  .shop-section .container figure figcaption {
+    margin-top: 10px !important;
+  }
+
 
 
 
@@ -145,6 +149,7 @@
   .blog-section .container .blog-item {
     width: 100% !important;
     margin-left: 0 !important;
+    margin-bottom: 50px;
   }
 
   .about-section .container {
@@ -158,6 +163,10 @@
       display: none;
     }
   }
+
+  .footer-area .footer-top .container .feed .image-group a:nth-child(6) {
+    margin-right: 20px !important;
+}
 
   footer.footer-area {
     margin-top: 70px;
